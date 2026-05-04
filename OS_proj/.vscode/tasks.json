@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: build OS simulator (all sources)",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-Wall",
+                "-Wextra",
+                "-I${workspaceFolder}/include",
+                "${workspaceFolder}/src/main.c",
+                "${workspaceFolder}/src/memory.c",
+                "${workspaceFolder}/src/pcb.c",
+                "${workspaceFolder}/src/queue.c",
+                "${workspaceFolder}/src/scheduler.c",
+                "${workspaceFolder}/src/mutex.c",
+                "${workspaceFolder}/src/interpreter.c",
+                "${workspaceFolder}/src/trace.c",
+                "-o",
+                "${workspaceFolder}/os_sim.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0"
+}

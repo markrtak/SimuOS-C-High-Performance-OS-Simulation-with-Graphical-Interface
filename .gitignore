@@ -1,0 +1,15 @@
+/build/
+**/__pycache__/
+*.pyc
+*.exe
+*.obj
+*.obj.d
+CMakeCache.txt
+CMakeFiles/
+
+# Runtime / generated during simulation
+output.txt
+run_output*.txt
+default.txt
+swap_*.txt
+myfile_content
