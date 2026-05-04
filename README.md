@@ -12,8 +12,8 @@ A **CPU–memory–scheduler simulation** written in C, bundled with a **Python 
 
 Full walkthrough of the simulator, GUI, and scheduling modes:
 
-* **[Watch the full project demo]([https://drive.google.com/file/d/PLACEHOLDER_REPLACE_ME/view?usp=sharing](https://drive.google.com/file/d/1I1X9vYAHUIwugI9v8_1gS0AFgdwuR6FD/view?usp=sharing))**
-* Direct link (copy/paste): `https://drive.google.com/file/d/PLACEHOLDER_REPLACE_ME/view?usp=sharing`
+* **[Watch the full project demo]([https://drive.google.com/file/d/1I1X9vYAHUIwugI9v8_1gS0AFgdwuR6FD/view?usp=sharing])**
+* Direct link (copy/paste): `https://drive.google.com/file/d/1I1X9vYAHUIwugI9v8_1gS0AFgdwuR6FD/view?usp=sharing`
 
 ## 🚀 Features
 
